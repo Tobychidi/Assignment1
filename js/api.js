@@ -8,7 +8,7 @@ export const getArticles = async () => {
    // };
 
 
-   await axios.get('https://api.mediastack.com/v1/news?access_key=04d6f22cdb21ab71cdddc1ffac4fc750&languages=en&search=abc')
+   await axios.get('http://api.mediastack.com/v1/news?access_key=04d6f22cdb21ab71cdddc1ffac4fc750&languages=en&search=abc')
 
       .then(function (res) {
          console.log(data)
